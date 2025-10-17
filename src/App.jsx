@@ -35,8 +35,7 @@ function App() {
         </div>
       ))}
       <hr />
-      <p>Subtotal: Rs.{subtotal.toFixed(2)}</p>
-      <h3>Total: Rs.{total.toFixed(2)}</h3>
+      <h3>Total: Rs.{subtotal.toFixed(2)}</h3>
     </div>
   );
 }
